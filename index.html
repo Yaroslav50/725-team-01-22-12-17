@@ -1,49 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cool website*</title>
+    <title>Cigar company</title>
+
+    <!-- swiper libs -->
+    <link rel="stylesheet" href="css/libs/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/libs/testimonials-fonts.css">
+    <link href="css/card.css" rel="stylesheet">
+
     <!-- Блок HISTORY - Білусяк-->
     <!-- Блок CONTACTS - Коляса-->
 </head>
+
 <body>
     <section class="history__bloc">
         <h2 class="history__bloc__name">History</h2>
         <img width="100" class="line__after__name" src="img/history_bloc_line.png" alt="Line">
-        <p class="history__title">For over 50 years, we have been engaged in tobacco growing and the production of cigars and other tobacco products.
+        <p class="history__title">For over 50 years, we have been engaged in tobacco growing and the production of
+            cigars and other tobacco products.
         </p>
         <div class="history__first-container">
             <img width="200" src="img/history_bloc_three_men.jpg" alt="Three founders">
             <p class="history__sept-date">SEPT 19, 1970</p>
-            <p class="history__description__about__founders">Foundation of our first tobacco factory in Havana by three brothers: James, John and Hugh Bomstrom.
+            <p class="history__description__about__founders">Foundation of our first tobacco factory in Havana by three
+                brothers: James, John and Hugh Bomstrom.
             </p>
         </div>
         <div class="history__second-conteiner">
             <img width="200" src="img/history_bloc_woman.jpg" alt="Woman with cigar">
             <p class="history__june-date">JUN 2, 1990
             </p>
-            <p class="history__description__about__rising">Rise to the market leader in the USA, the opening of the first official store and 3 more factories.
+            <p class="history__description__about__rising">Rise to the market leader in the USA, the opening of the
+                first official store and 3 more factories.
             </p>
         </div>
         <div class="history__third-container">
             <img width="200" src="img/history_bloc_plants.jpg" alt="Plantation of plants">
             <p class="history__november-date">NOV 17, 2000
             </p>
-            <p class="history__description__about__contract">Signing a contract with Trader Joe's. Since then, we've become a regular supplier to all its stores.
+            <p class="history__description__about__contract">Signing a contract with Trader Joe's. Since then, we've
+                become a regular supplier to all its stores.
             </p>
         </div>
         <div class="history__fourth-container">
             <img width="200" src="img/history_bloc_cigars.png" alt="Cigars">
             <p class="history__may-date">MAY 5, 2015
             </p>
-            <p class="history__description__about__expantion">Establishment of the fifth tobacco factory in Cuba. Market launch of 3 new cigar brands. 
+            <p class="history__description__about__expantion">Establishment of the fifth tobacco factory in Cuba. Market
+                launch of 3 new cigar brands.
             </p>
         </div>
         <div class="history__button">
             <a href="#" class="history__button-more-about-us">MORE ABOUT US</a>
         </div>
     </section>
+
+    <div class="testimonials">
+        <div class="testimonials__header">
+            <h2 class="testimonials__header-h2">TESTIMONIALS</h2>
+            <img class="testimonials__header-img" src="img/testimonial-arrow.png" alt="Arrow">
+            <p class="testimonials__header-text">Some feedback on Havana cigars from our partners.</p>
+        </div>
+        <div class="testimonials__cards">
+            <div class="swiper">
+                <div class="testimonials__cards-wrapper">
+                    <div class="testimonials__cards-item">
+                        <h2 class="testimonials__card-h2">Linda Peterson</h2>
+                        <h3 class="testimonials__card-h3">Procurement Manager at American Tobacco</h3>
+                        <p class="testimonials__card-text">We have been working with this company for 30 years.Havana
+                            supplies us with high-quality pressed tobacco, which we then use to make our cigarettes. We
+                            are
+                            fully satisfied with the cooperation.</p>
+                        <h3 class="testimonials__card-h3">October 28,2017</h3>
+                    </div>
+                    <div class="testimonials__cards-item">
+                        <h2 class="testimonials__card-h2">David Johnson</h2>
+                        <h3 class="testimonials__card-h3">Dicertor af Cigars Shop</h3>
+                        <p class="testimonials__card-text">5 years ago we ordered several packages of Havana cigars.
+                            They
+                            were sold out in our store in just a few hours. Since then, we sell more than 1,000 Havana
+                            cigars each week in our small Oregon store.</p>
+                        <h3 class="testimonials__card-h3">June 12,2018</h3>
+                    </div>
+                    <div class="testimonials__cards-item">
+                        <h2 class="testimonials__card-h2">Kyle Remden</h2>
+                        <h3 class="testimonials__card-h3"> Director at Remden Cigar Shop</h3>
+                        <p class="testimonials__card-text">I have been selling cigars and cigarillos for 10 years now.
+                            The
+                            Havana products are highly appreciated by my customers and make up about 80% of the
+                            assortment
+                            in my store. I am satisfied with the cooperation.</p>
+                        <h3 class="testimonials__card-h3">January 04,2019</h3>
+                    </div>
+                    <div class="testimonials__cards-item">
+                        <h2 class="testimonials__card-h2">Lucas Forrester</h2>
+                        <h3 class="testimonials__card-h3">Procurement Manager at Trader Joe`s</h3>
+                        <p class="testimonials__card-text">We have been cooperating for 20 years, and are fully
+                            satisfied
+                            with the cooperation. Our customers often choose Havana products. In the future, we will
+                            expand
+                            the range of Havana cigars presented in our stores.</p>
+                        <h3 class="testimonials__card-h3">March 21,2020</h3>
+                    </div>
+                </div>
+                <div class="testimonials__cards-prev-btn"></div>
+                <div class="testimonials__cards-next-btn"></div>
+            </div>
+        </div>
+
+
+    </div>
 </body>
+<script type="text/javascript" src="js/libs/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="js/card.js"></script>
 </html>
