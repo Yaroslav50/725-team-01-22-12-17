@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -9,5 +9,8 @@
 :root {
     font-family: 'Roboto', sans-serif;
     font-family: 'BenchNine', sans-serif;
+    --title-color: #c5a35c;
+    --text-color: #d0c8b9;
+    --dark-accent-color: #1b191a;
 }
 
