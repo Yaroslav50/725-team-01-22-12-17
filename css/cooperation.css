@@ -2,3 +2,10 @@
 .cooperation {
     background-image: url(/img/cooperation-background.png)
 }
+.cooperation_title{
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    color: #c5a35c;
+    padding-top: 90px;
+}
