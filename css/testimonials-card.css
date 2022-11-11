@@ -1,5 +1,5 @@
 .testimonials {
-   background-color: #1b191a;
+   background-color: var(--dark-accent-color);
    width: 100%;
    height: 100%;
    padding-top: 95px;
@@ -12,7 +12,7 @@
     margin: 0 auto;
 }
 .testimonials__header-h2 {
-    color: #c5a35c;
+    color: var(--title-color);
     font-size: 46px;
     font-family:'BenchNine', sans-serif;
     line-height: 1.143;
@@ -28,7 +28,7 @@
     height: 32px;
 }
 .testimonials__header-text {
-    color: #d0c8b9;
+    color: var(--text-color);
     font-size: 19px;
     font-family:'Roboto', sans-serif;
     line-height: 1.5;
@@ -50,7 +50,7 @@
     display: inline-block;
 }
 .testimonials__card-h2 {
-    color: #c5a35c;
+    color: var(--title-color);
     text-align: center;
     font-size: 30px;
     font-family: 'BenchNine', sans-serif;
@@ -60,7 +60,7 @@
     margin-top: 30px;
 }
 .testimonials__card-h3 {
-    color: #d0c8b9;
+    color: var(--text-color);
     text-align: center;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
