@@ -1,1 +1,49 @@
 /* Our Brands by Yaroslav */
+.our-brands {
+background-color: black;
+}
+
+.our-brands__header {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.our-brands__header-title {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.02px;
+    line-height: 38.862px;
+}
+.our-brands__header-match-container {
+    margin-top: 25px;
+    position: relative;
+}
+
+.our-brands__header_slogan {
+    color: var(--text-color);
+}
+/* 
+.our-brands__list {
+
+} */
+
+.our-brands__list-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .our-brands__list-img-container {
+
+} */
+
+.our-brands__list-name {
+    color: var(--title-color);
+}
+
+.our-brands__list-text {
+    color: var(--text-light-color);
+}
