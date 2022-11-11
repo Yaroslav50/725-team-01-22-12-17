@@ -1,49 +1,97 @@
 /*history by Bilusiak */
 
 .history {
-    background-color: #1b191a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--dark-accent-color);
     font-family: BenchNine,sans-serif;
     font-weight: 700, 400;
+    min-width: 320px;
+    padding: 90px 0px 90px 0px;
+    line-height: 1.5;
+}
+
+.container__history {
+    padding: 0px 24px;
+    display: block;
+    width: 100%;
+    max-width: 1100px;
+    justify-content: space-evenly;
+}
+
+.container__history img {
+    width: 100%;
+    height: 100%;
 }
 
 .history__header {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
+    align-items: center;
+    text-align: center;
    
 }
 
 .history__name {
-    color: #c5a35c;
-    font-size: 46px
+    color: var( --title-color);
+    font-size: 34px;
     
     
 }
 
 .history__line {
+    object-fit: contain;
     width: 100%;
     height: 100%;
     min-width: 320px;
 }
 
 .history__title {
-    color: #d0c8b9;
+    color: var(--text-color);
     font-size: 19px;
+    font-family: Roboto,sans-serif;
+}
+
+.history__founders, .history__rising, .history__contracts, .history__new-brands {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+    margin: auto;
 }
 
 .history__date {
     font-weight: 700;
-    color: #c5a35c;
+    color: var(--title-color);
     font-size: 24px;
 }
 
 .history__descr {
-    color: #ffff;
+    color: var(--text-light-color);
     font-size: 17px;
 }
 
 .history__button {
-    color: #ffff;
+    display: flex;
+    color: var(--text-light-color);
     text-decoration: none;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    padding: 5px;
+}
+
+.history__btn {
+    display: flex;
+
+    justify-content: center;
 }
 
 
