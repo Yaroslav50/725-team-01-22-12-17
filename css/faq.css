@@ -1,8 +1,7 @@
 .faq {
     background-color: var(--dark-accent-color);
     padding-top: 95px;
-    padding-bottom: 100px;
-    
+    padding-bottom: 100px;    
 }
 .faq__header {
     text-align: center;
