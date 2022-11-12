@@ -24,6 +24,7 @@
 .container__history img {
     width: 100%;
     height: 100%;
+    
 }
 
 .history__header {
@@ -55,15 +56,19 @@
     font-family: Roboto,sans-serif;
 }
 
-.history__founders, .history__rising, .history__contracts, .history__new-brands {
+.history__container-info {
     display: grid;
+}
+
+.history__founders, .history__rising, .history__contracts, .history__new-brands {
+    display: flex;
     gap: 5px;
     width: 100%;
     height: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 15px;
+    padding: 0px 15px;
     margin: auto;
     font-family: Roboto,sans-serif;
     font-size: 17px
@@ -72,7 +77,8 @@
 .history__date {
     font-weight: 700;
     color: var(--title-color);
-    font-size: 24px;
+    font-size: 100%;
+    align-self: flex-start;
 }
 
 .history__descr {
@@ -94,6 +100,24 @@
     display: flex;
 
     justify-content: center;
+}
+
+@media (min-width:560px) {
+    .history__container-info {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width:780px) {
+    .history__container-info {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width:960px) {
+    .history__container-info {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 
