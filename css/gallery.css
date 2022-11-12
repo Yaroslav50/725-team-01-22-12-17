@@ -1,1 +1,6 @@
 /* Our Gallery by Yaroslav */
+.our-gallery {
+    background-image: url(../img/gal_bg_black_paper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,6 +1,8 @@
 /* Our Brands by Yaroslav */
 .our-brands {
-background-color: black;
+background-image: url(../img/brands_bg_rolling_cigar.png);
+background-size: cover;
+background-repeat: no-repeat;
 }
 
 .our-brands__header {
