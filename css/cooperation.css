@@ -42,3 +42,27 @@
     line-height: 28.5px;
     margin-top: 20px;
 }
+.coopertion_conten_control{
+    margin-top: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.experience{
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    text-align: center;
+}
+.img_experience{
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    background-color: #212020;
+    border-radius: 60px
+       
+}
