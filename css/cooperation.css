@@ -1,11 +1,44 @@
 /* Cooperation with us by Євген */
 .cooperation {
-    background-image: url(/img/cooperation-background.png)
+    background-image: url(/img/cooperation-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left 70% top 70%;
+    background-attachment: fixed;
+    padding-bottom: 90px;
+    padding-top: 50;
+    padding-bottom: 50;
+}
+.cooperation_title_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: -10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .cooperation_title{
-    font-size: 34px;
+    font-family: 'BenchNine', sans-serif;
+    color: var(--title-color);
     text-align: center;
+    font-size: 34px;
     font-weight: 700;
-    color: #c5a35c;
-    padding-top: 90px;
+    letter-spacing: 1.02px;
+    line-height: 38.86px;
+}
+.cooperation_title_line{
+    display: block;
+    max-width: 375px;
+    margin: auto;
+    margin-top: 25px;
+}
+.cooperation_title_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 28.5px;
+    margin-top: 20px;
 }
