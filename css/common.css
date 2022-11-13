@@ -10,8 +10,8 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'BenchNine', sans-serif;
     --title-color: #c5a35c;
-    --text-color: #d0c8b9;
+    --text-color: rgb(208, 200, 185);
     --dark-accent-color: #1b191a;
-    --text-light-color: #fff; 
+    --text-light-color: rgb(255, 255, 255); 
 }
 
