@@ -51,6 +51,10 @@
     margin-top: 20px;
 }
 
+.map {
+    width: 100%;
+}
+
 .contacts__form-container {
     margin-top: 50px;
     padding: 39px 55px;
@@ -100,3 +104,36 @@
     transition: 0.3s;
 }
 
+@media (min-width: 810px) {
+    .contacts__container-title {
+        font-size: 40px;
+    }
+
+    .information__title {
+        font-size: 26px;
+        padding: 8px 30px 8px 0px;
+    }
+
+    .information-contacts {
+        padding: 8px 0px 8px 30px;
+    }
+
+    .map {
+        height: 300px;
+    }
+    .contacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 100px;
+    }
+
+    .contacts__form-container {
+        margin: 0px 50px;
+        width: auto;
+    }
+
+    .contacts__information {
+        display: flex;
+    }
+
+}
