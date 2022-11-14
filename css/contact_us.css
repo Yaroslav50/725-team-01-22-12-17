@@ -1,0 +1,50 @@
+.contact_us > img{
+    width: 100%;
+}
+
+.contact_us{
+    background-image: url(../img/bg_cigar_for_contact_us.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+#contact_us_bg{
+    background-color: rgba(0,0,0,.7);
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.contact_us_all{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    border: 30px;
+}
+.contact_us_head{
+    text-align: center;
+    margin: 0 30px;
+}
+.contact_us_title{
+    color: var(--title-color);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    letter-spacing: 1.25px;
+    line-height: 38.86px;
+}
+.contact_us_title_line{
+    display: block;
+    max-width: 375px;
+    margin: auto;
+    margin-top: 25px;
+}
+.contact_us_content_title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: var(--text-color);
+    text-align: center;
+    line-height: 28.5px;
+    margin-top: 20px;
+}
