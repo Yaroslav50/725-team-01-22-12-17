@@ -2,14 +2,11 @@
 
 */
 .about__havana {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    color: var( --title-color);
+    font-size: 34px;
     background-color: var(--dark-accent-color);
 }
 
 .partners {
-
     background-color: var(--dark-accent-color);
 }
