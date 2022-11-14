@@ -3,10 +3,26 @@
 */
 .about__havana {
     color: var( --title-color);
-    font-size: 34px;
     background-color: var(--dark-accent-color);
+    font-size: 40px;
+    line-height: 1.143;
+    letter-spacing: .03em;
 }
 
+.greenery picture {
+    display: block;
+    position: relative;
+    max-width: 100%;
+    padding-top: 85.26%;
+    font-size: 17px;
+    text-align: left;
+    gap: 5px;
+    height: 100%;
+    font-family: Roboto,sans-serif;
+    
+}
+
+}
 .partners {
     background-color: var(--dark-accent-color);
 }
