@@ -8,13 +8,18 @@
     line-height: 1.143;
     letter-spacing: .03em;
 }
+.title_about_havana {
+    font-size: inherit;
+    
 
+}
 .greenery picture {
     display: block;
     position: relative;
     max-width: 100%;
     padding-top: 85.26%;
     font-size: 17px;
+    font-weight: 400;
     text-align: left;
     gap: 5px;
     height: 100%;
