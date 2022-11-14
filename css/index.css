@@ -1,13 +1,18 @@
 @import url(common.css);
-@import url(swiper-bundle.min.css);
-@import url(testimonials-card.css);
-@import url(pricing.css);
+@import url(title.css);
 @import url(history.css);
-@import url(faq.css);
-@import url(contacts.css);
-@import url(brands.css);
-@import url(gallery.css);
 @import url(cooperation.css);
 @import url(contact_us.css);
+@import url(pricing.css);
 @import url(production.css);
-@import url(title.css);
+@import url(swiper-bundle.min.css);
+@import url(testimonials-card.css);
+@import url(brands.css);
+@import url(gallery.css);
+@import url(faq.css);
+@import url(contacts.css);
+
+
+
+
+
