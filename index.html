@@ -21,7 +21,7 @@
     <header class="header">
         <nav class="header__nav">
             <div class="header__logo-container">
-                <img class="header__logo" width="177" src="img/havana-logo.png" alt="Havana Logo" />
+                <a href="/"><img class="header__logo" src="img/havana-logo.png" alt="Havana Logo"></a>
             </div>
             <div class="hamburger-menu">
                 <input id="menu__toggle" type="checkbox" />
@@ -31,7 +31,7 @@
                 <ul class="menu__box">
                   <li><a class="menu__item" href="#">ABOUT US</a></li>
                   <li><a class="menu__item" href="#">SERVICES</a></li>
-                  <li><a class="menu__item" href="#">OUR BRANDS</a></li>
+                  <li><a class="menu__item" href="#our-brands">OUR BRANDS</a></li>
                   <li><a class="menu__item" href="#">TESTIMONIALS</a></li>
                   <li><a class="menu__item" href="#">CONTACT US</a></li>
                   <li>
@@ -44,6 +44,16 @@
                   </li>
                 </ul>
               </div>
+
+              <div class="header__menu-wide">
+                <a class="header__menu-wide-item" href="#">About Us</a>
+                <a class="header__menu-wide-item" href="#">Services</a>
+                <a class="header__menu-wide-item" href="#our-brands">Our Brands</a>
+                <a class="header__menu-wide-item" href="#">Testimonials</a>
+                <a class="header__menu-wide-item" href="#">Contact Us</a>
+                <a class="header__menu-wide-item" id="header__menu-wide-item-button" href="#">Request a quote</a>
+            </div>
+
         </nav>
         <div class="header__banner">
             <h1>Cigars</h1>
@@ -335,7 +345,7 @@
         </div>
 
         <!-- OUR BRANDS BLOCK -->
-        <section class="our-brands">
+        <section class="our-brands" id="our-brands">
             <div id="our-brands__bg">
               <div class="our-brands__container">
                 <div class="our-brands__header">

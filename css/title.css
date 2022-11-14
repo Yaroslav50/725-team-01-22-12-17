@@ -1,6 +1,7 @@
 @import url(title-burger.css);
 
-.header__banner h1 {
+.header__banner h1,
+.header__menu-wide {
     display: none;
 }
 
@@ -10,6 +11,17 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 38.5% top 0;
+    min-width: 280px;
+}
+
+.header__logo {
+    max-width: 177px;
+    width: 100%;
+    margin: auto;
+}
+
+.header__logo:hover {
+    cursor: pointer;
 }
 
 .header__nav {
@@ -18,14 +30,16 @@
 }
 
 .header__banner {
-    max-width: 1200px;
-    min-width: 320px;
+    width: 100%;
     padding: 35px 32px 0 32px;
 }
 
 #header__img {
     display: block;
     width: 100%;
+    max-width: 1040px;
+    min-width: 320px;
+    margin: auto;
 }
 
 .header__buttons {
@@ -54,6 +68,7 @@
 .header__btn-about {
     border: 2px solid white;
 }
+
 .header__btn-about:hover {
     background-color: #fff;
     color: black;
@@ -61,7 +76,7 @@
 }
 
 .header__btn-contacts {
-background-color: var(--title-color);
+    background-color: var(--title-color);
 }
 
 .header__btn-contacts:hover {
@@ -84,4 +99,70 @@ background-color: var(--title-color);
     font-weight: 400;
     margin: auto;
     padding: 20px 0;
+}
+
+@media (min-width: 992px) {
+    .header__nav {
+        max-width: 1200px;
+        height: 123px;
+        padding: 30px 15px;
+        margin: 0 auto;
+    }
+
+    .header__banner {
+        padding: 0 32px 0 32px;
+    }
+
+    .header__warning {
+        margin-top: 14px;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .header__menu-wide {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .header__menu-wide-item {
+        font-family: 'Roboto', sans-serif;
+        color: #fff;
+        font-size: 13px;
+        font-weight: 500;
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 5px 7.5px;
+    }
+
+    .header__menu-wide-item:hover {
+        color: var(--title-color);
+    }
+
+    #header__menu-wide-item-button {
+        font-family: 'BenchNine', sans-serif;
+        font-size: 14.4px;
+        font-weight: 700;
+        letter-spacing: 1.152px;
+        border: 2px solid #fff;
+        padding: 8px 15px;
+        margin: 10px;
+    }
+
+    #header__menu-wide-item-button:hover {
+        background-color: #fff;
+        color: black;
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 15px;
+        margin: 10 -10px 0 -10px;
+    }
 }
