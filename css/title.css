@@ -6,12 +6,10 @@
 }
 
 .header {
-    min-height: 937px;
     background-image: url(../img/title_bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left 38.5% top 0;
-    min-width: 280px;
 }
 
 .header__logo {
