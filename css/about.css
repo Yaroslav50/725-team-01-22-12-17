@@ -7,17 +7,28 @@
     font-size: 40px;
     line-height: 1.143;
     letter-spacing: .03em;
-    text-align: left;
+    text-align: right;
     display: block;
 }
    
-
-}
-.title_about_havana {
-    font-size: inherit;
+.greenery_picture {
+    box-sizing: border-box;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25.5px;
+    max-width: 100%;
+    min-height: 32px;
+    padding-top: 309.49px;
+    position: relative;
+    text-align: left;
+    width: 363px;
     
-
 }
+ 
+
+
 .greenery picture {
     display: block;
     position: relative;
