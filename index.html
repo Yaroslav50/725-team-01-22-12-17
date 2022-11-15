@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <nav class="header__nav">
             <div class="header__logo-container">
                 <a href="/"><img class="header__logo" src="img/havana-logo.png" alt="Havana Logo"></a>
@@ -72,7 +72,7 @@
 
     <main>
         <!--Block About Havana-->
-        <section class="about__havana">
+        <section id="about-havana" class="about__havana">
             <h2 class="title_about_havana">ABOUT HAVANA</h2>
             <div class="greenery picture">
                 <img class="greenery_picture" src="img/greenery.png" alt="Greenery">
@@ -212,7 +212,7 @@
                     </div>    
                     <div class="cooperation_nav_button">
                         <a class="cooperation_button_learn" href="#">LEARN MORE</a>
-                        <a class="cooperation_button_contact" href="#Contacts">CONTACT US</a>
+                        <a class="cooperation_button_contact" href="#contacts">CONTACT US</a>
                     </div>
                 </div>
             </div>     
@@ -372,7 +372,7 @@
 
 <!-- ------ -->
 
-        <div class="testimonials">
+        <div id="testimonials" class="testimonials">
             <div class="testimonials__header">
                 <h2 class="testimonials__header-h2">TESTIMONIALS</h2>
                 <img class="testimonials__header-img" src="img/testimonial-arrow.png" alt="Arrow">
@@ -649,7 +649,7 @@
         </section>
 
         <!-- CONTACTS BLOCK -->
-        <section id="Contacts" class="contacts">
+        <section id="contacts" class="contacts">
             <div class="contacts__info-container">
                 <h2 class="contacts__container-title">CONTACTS</h2>
                 <div class="contacts__img-container">
@@ -690,7 +690,23 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="footer__header">
+            <div class="footer__container-logo">
+                <a href="#header"> <img class="footer__logo" src="img/footer-logo.png" alt="Havana logo"></a>
+            </div>
+            <div class="footer__menu">
+                <a class="footer__menu-item" href="#about-havana">ABOUT US</a>
+                <a class="footer__menu-item" href="#">SERVICES</a>
+                <a class="footer__menu-item" href="#our-brands">OUR BRANDS</a>
+                <a class="footer__menu-item" href="#testimonials">TESTIMONIALS</a>
+                <a class="footer__menu-item" href="#contacts">CONTACT US</a>
+            </div>
+        </div>
+        <div class="footer__footer">
+            <p class="footer__footer-text">© Created by</p>
+            <p class="footer__footer-text">All rights Reserved</p>
+        </div>
 
     </footer>
 
