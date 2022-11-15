@@ -35,6 +35,12 @@
 
 .partners {
     background-color: var(--dark-accent-color);
+
+.line__after__partners {
+    display: block;
+    max-width: 375px;
+    margin: auto;
+    margin-top: 25px;
 }
 .title_partners {
     display: flex;
