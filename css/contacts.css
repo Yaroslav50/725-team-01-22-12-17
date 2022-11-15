@@ -4,13 +4,25 @@
     padding-bottom: 100px;
     padding-left: 24px;
     padding-right: 24px;
+    position: relative;
+}
+
+.contacts::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .contacts__info-container {
     text-align: left;
+    z-index: 10;
 }
 
-.contacts__container-title{
+.contacts__container-title {
     color: var(--title-color);
     font-family: 'BenchNine';
     font-size: 34px;
@@ -61,6 +73,7 @@
     margin-top: 50px;
     padding: 39px 55px;
     background-color: var(--dark-accent-color);
+    z-index: 5;
 }
 
 .contacts__form {
@@ -97,11 +110,11 @@
     letter-spacing: 1.28px;
     border: none;
     transition: 0.3s;
-    
+
 }
 
 .contacts__input-btn:hover {
-    background-color:#3f3229;
+    background-color: #3f3229;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -123,6 +136,7 @@
     .map {
         height: 300px;
     }
+
     .contacts {
         display: grid;
         grid-template-columns: 1fr 1fr;
