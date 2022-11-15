@@ -10,6 +10,7 @@
 
 .faq__title {
     color: var(--title-color);
+    font-family: 'BenchNine';
     font-size: 34px;
     font-weight: 700;
     letter-spacing: 1.2px;
@@ -34,15 +35,38 @@
     margin: 20px;
 }
 
-.faq__accordion {
+.accordion {
     margin-top: 20px;
 }
 
-.faq__accordion-container {
+.accordion {
+    --bs-accordion-bg: var(--dark-accent-color);
+    --bs-accordion-border-width: 0;
+    --bs-accordion-active-color: var(--title-color);
+    --bs-accordion-active-bg: var(--dark-accent-color);
+    --bs-accordion-btn-focus-border-color: var(--dark-accent-color);
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+}
+
+.accordion-button {
+    color: var(--title-color);
+    font-family: "BenchNine";
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.accordion-item {
+    font-family: "Roboto";
+    font-size: 17px;
+    line-height: 25.5px;
+    color: var(--text-light-color);
     padding: 20px;
 }
 
-.faq__accordion-container::after {
+.accordion-item::after {
     content: "";
     width: 80%;
     height: 0.5px;
@@ -52,41 +76,30 @@
     opacity: 0.2;
 }
 
-.faq__question {
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--title-color);
-    letter-spacing: 0.66px;
-    cursor: pointer;
-}
-
-.faq__answer {
-    margin-top: 20px;
-    font-family: 'Roboto';
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 25.5px;
-    color: #fff;
-}
-
 @media (min-width: 800px) {
+    .accordion-item::after {
+        width: 90%;
+    }
+}
+
+@media (min-width: 1100px) {
     .faq__header {
         margin: 0px 150px;
     }
     
-    .faq__accordion-container {
+    .accordion-item {
         margin: 0px 150px;
     }
 
-    .faq__accordion-container::after {
-        width: 75%;
+    .accordion-item::after {
+        width: 70%;
     }
 
     .faq__title {
         font-size: 46px;;
     }
 
-    .faq__question {
+    .accordion-button {
         font-size: 26px;
     }
 }

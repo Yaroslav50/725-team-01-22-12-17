@@ -12,6 +12,7 @@
 
 .contacts__container-title{
     color: var(--title-color);
+    font-family: 'BenchNine';
     font-size: 34px;
     font-weight: 700;
     letter-spacing: 1.2px;
@@ -32,6 +33,7 @@
 
 .information__title {
     color: var(--title-color);
+    font-family: 'BenchNine';
     font-size: 22px;
     font-weight: 700;
     letter-spacing: 0.66px;
