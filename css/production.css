@@ -133,6 +133,10 @@
     background-size: cover;
    
 }
+.btnsoc{
+    color: var(--title-color);
+    margin-right: 20px;
+}
 
 .founders-brothers{
     display: grid;
