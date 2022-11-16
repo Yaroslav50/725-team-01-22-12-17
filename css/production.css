@@ -133,6 +133,15 @@
     background-size: cover;
    
 }
+.btnsoc{
+    color: var(--title-color);
+    margin-right: 20px;
+    text-decoration: none;
+}
+.btnsoc:hover{
+    text-decoration: underline;
+    color: var(--text-light-color);
+}
 
 .founders-brothers{
     display: grid;
