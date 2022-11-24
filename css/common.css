@@ -13,5 +13,6 @@
     --text-color: rgb(208, 200, 185);
     --dark-accent-color: #1b191a;
     --text-light-color: rgb(255, 255, 255); 
+    --error-color: rgb(255, 0, 0);
 }
 

@@ -81,6 +81,10 @@
     flex-direction: column;
 }
 
+.contacts__error-input{
+    border: 1px solid var(--error-color);
+}
+
 .contacts__input {
     padding: 14px 20px;
     margin: 12px 0px 24px;
@@ -90,7 +94,7 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 20.8px;
-    border: none;
+    border: 0px;
     text-overflow: ellipsis;
 }
 
