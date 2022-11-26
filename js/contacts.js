@@ -9,10 +9,19 @@
     function errorInput(input) {
       input.classList.add("contacts__error-input");
     }
+
+    function validInput(input){
+      if (input.classList.contains("contacts__error-input")){
+        input.classList.remove("contacts__error-input");
+    }
+  }
   
     function checkLength(input, min) {
       if (input.value.length < min) {
         errorInput(input);
+      }
+      else{
+        validInput(input);
       }
     }
   
@@ -20,6 +29,8 @@
       const regPhoneNumber = /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/;
       if (regPhoneNumber.test(input.value) === false) {
         errorInput(input);
+      }else{
+        validInput(input);
       }
     }
   
@@ -27,10 +38,13 @@
       const regEmail = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
       if (regEmail.test(input.value) === false) {
         errorInput(input);
+      }else{
+        validInput(input);
       }
     }
   
-    form.addEventListener("submit", function () {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
       checkLength(userName, 3);
       checkPhoneNumber(userPhoneNumber);
       checkEmail(userEmail);
