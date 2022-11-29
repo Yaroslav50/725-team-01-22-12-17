@@ -27,9 +27,9 @@
     font-family: 'BenchNine', sans-serif;
     color: var(--title-color);
     text-align: center;
-    font-size: 34px;
+    font-size: 46px;
     font-weight: 700;
-    letter-spacing: 1.02px;
+    letter-spacing: .32em;
     line-height: 38.86px;
 }
 .cooperation_title_line{
@@ -57,8 +57,10 @@
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+    flex-wrap: wrap;
 }
 .experience{
+    display: block;
     font-size: 17px;
     font-weight: 400;
     line-height: 25.5px;
@@ -85,6 +87,10 @@
     font-size: 17px;
     height: 50px;
     color: var(--text-light-color);
+    display: block;
+    box-sizing: border-box;
+    height: 51px;
+    width: 370px;
 }
 .content_broad_variety {
     font-size: 17px;
