@@ -2,7 +2,8 @@
     min-width: 320px;
     background-image: url(../img/bg_cigar_for_contact_us.png);
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: center;
 }
 #contact_us_bg {
     background-color:rgba(0,0,0,.7);
@@ -13,8 +14,8 @@
     display: flex;
     flex-direction: column;
     background: #212020;
-    padding: 50px 60px;
-    width:calc(100%/3);
+    padding: 60px 70px;
+    width:calc(100%/2);
     margin: 0px auto;
     text-align: center;
 }
@@ -75,6 +76,28 @@
     transition: all .70s ease;
 }
 
+@media (max-width: 767px) {
+    .contact_us_all {
+        display: flex;
+        flex-direction: column;
+        background: #212020;
+        padding: 30px 40px;
+        width: calc(100%/1.2);
+        margin: 0px auto;
+        text-align: center;
+    } 
+}
+@media (min-width: 992px) {
+    .contact_us_all {
+        display: flex;
+        flex-direction: column;
+        background: #212020;
+        padding: 40px 50px;
+        width: calc(100%/3);
+        margin: 0px auto;
+        text-align: center;
+    } 
+}
 
 
 
