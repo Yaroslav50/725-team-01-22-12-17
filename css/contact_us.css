@@ -1,50 +1,85 @@
-.contact_us > img{
-    width: 100%;
-}
-
-.contact_us{
+.contact_us {
+    min-width: 320px;
     background-image: url(../img/bg_cigar_for_contact_us.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
     background-attachment: fixed;
 }
-#contact_us_bg{
-    background-color: rgba(0,0,0,.7);
-    padding-bottom: 90px;
+#contact_us_bg {
+    background-color:rgba(0,0,0,.7);
     padding-top: 90px;
+    padding-bottom: 90px;
 }
-.contact_us_all{
-    padding: 0 25px;
+.contact_us_all {
     display: flex;
     flex-direction: column;
-    align-content: center;
-    border: 30px;
-}
-.contact_us_head{
+    background: #212020;
+    padding: 50px 60px;
+    width:calc(100%/3);
+    margin: 0px auto;
     text-align: center;
-    margin: 0 30px;
 }
-.contact_us_title{
+.contact_us_title {
     color: var(--title-color);
-    text-align: center;
-    font-size: 34px;
+    font-size: 46px;
+    line-height: 1.143;
+    font-family: 'BenchNine', sans-serif;
     font-weight: 700;
-    letter-spacing: 1.25px;
-    line-height: 38.86px;
+    text-transform: none;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: .03em;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
 }
-.contact_us_title_line{
-    display: block;
-    max-width: 375px;
-    margin: auto;
+.contact_us_title_line {
+    width: 100%;
+    height: 100%;
+    text-align: center;
     margin-top: 25px;
 }
-.contact_us_content_title{
-    font-family: 'Roboto', sans-serif;
-    font-size: 17px;
-    font-weight: 400;
-    color: var(--text-color);
-    text-align: center;
-    line-height: 28.5px;
+.contact_us_content_title {
     margin-top: 20px;
+    color: var(--text-color);
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    text-transform: none;
+    margin-bottom: 0px;
 }
+.contact_us_input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.contact_us_phone_num {
+    border-color: #d0c8b9;
+    background-color: rgb(46, 46, 46);
+    color: rgba(255, 255, 255, 0.84);
+    padding: 14px 20px;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 1.3;
+}
+.contact_us_button {
+    margin-top: 24px;
+    background-color: #c5a35c;
+    padding: 14px 20px;
+}
+.contact_us_button:hover {
+    background-color:#3b2b07;
+    transition: all .70s ease;
+}
+
+
+
+
+
+
+
+
+
