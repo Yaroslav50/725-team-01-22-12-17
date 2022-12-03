@@ -159,6 +159,18 @@
     transition: all .25s ease;
     color: var(--text-light-color);
 }
+@media (max-width: 1220px) {
+    .coopertion_content_control{
+        width: auto;
+    }
+    .cooperation_content_discription{
+        width: auto;
+    }
+    .cooperation_nav_button {
+        width: auto;
+        margin-top: 45px;
+    }
+}
 
 @media (max-width: 992px) {
     .cooperation_title_content {
@@ -179,12 +191,14 @@
     .cooperation_title-discr {
         width: max-content;
     }
+    .cooperation_content_discription {
+        width: 370px;
+    }
     .cooperation_nav_button {
         width: auto;
         margin-top: 45px;
     }
 }
-
 @media (max-width: 767px) {
     .cooperation_title_content {
         display: flex;
