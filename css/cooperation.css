@@ -159,6 +159,32 @@
     transition: all .25s ease;
     color: var(--text-light-color);
 }
+
+@media (max-width: 992px) {
+    .cooperation_title_content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: calc(100%/1.2);
+        text-align: center;
+    }
+    .coopertion_content_control {
+        margin-top: 45px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+        align-items: center;
+        justify-items: center;
+    }
+    .cooperation_title-discr {
+        width: max-content;
+    }
+    .cooperation_nav_button {
+        width: auto;
+        margin-top: 45px;
+    }
+}
+
 @media (max-width: 767px) {
     .cooperation_title_content {
         display: flex;
@@ -218,6 +244,7 @@
         margin-top: 45px;
     }
 }
+
 
 
 
