@@ -121,7 +121,7 @@
 
 }
 
-/*#top-btn__function {
+#top-btn__function {
   display: none; 
   position: fixed; 
   bottom: 20px;
@@ -141,7 +141,7 @@
     background-color: #555;
 }
 
-*/
+
 @media (min-width:560px) {
     .history__container-info {
         grid-template-columns: 1fr 1fr;

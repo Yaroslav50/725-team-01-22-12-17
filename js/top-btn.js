@@ -1,5 +1,5 @@
 // History blog by Bilusiak 
-/*
+
 let topButton = document.getElementById("top-btn__function");
 
 window.onscroll = function() {scrollFunction()};
@@ -16,4 +16,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0; 
 }
 
-*/
