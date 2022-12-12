@@ -1,3 +1,10 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+}
 .pricing{
     min-width: 320px;
     background-image: url(../img/pricing_sigars.jpeg);

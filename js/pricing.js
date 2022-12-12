@@ -9,11 +9,11 @@ class Row {
 
     createHtmlBlock(){
         return '<div class="pricing-cards__item"> \
-        <img class="pricing-card__img" src="' + this.imgPath + '" alt="spiral image"> \
-        <h3 class="pricing-cards__h3">' + this.name + '</h3> \
-        <h4 class="pricing-cards__h4">' + this.pack + '-Pack</h4> \
-        <p class="pricing-cards__text"><span class="pricing-cards__span">$' + this.price + '</span> | per sigar</p> \
-        <button class="pricing-cards__btn">ORDER</button></div>'
+            <img class="pricing-card__img" src="' + this.imgPath + '" alt="spiral image"> \
+            <h3 class="pricing-cards__h3">' + this.name + '</h3> \
+            <h4 class="pricing-cards__h4">' + this.pack + '-Pack</h4> \
+            <p class="pricing-cards__text"><span class="pricing-cards__span">$' + this.price + '</span> | per sigar</p> \
+            <button class="pricing-cards__btn"> <a href="#contacts">ORDER</a></button></div>'
     }
 }
 
