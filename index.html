@@ -277,9 +277,12 @@
                     </p>
                 </div>
                 <div class="pride-production">
-                    <video class="pride-production__video" width="435" height="300" controls>
-                        <source src="video/habano-story.mp4" type="video/mp4">
-                    </video>
+                    <div class="video">
+                        <button class="pride-production__video-control"></button>
+                        <video id="video" class="pride-production__video" width="435" height="300" controls cursor="pointer">
+                            <source src="video/habano-story.mp4" type="video/mp4" />
+                        </video>
+                    </div>                    
                     <div class="pride-production__text">
                         <h3 class="pride-production__text-title title-text">HOW THE CIGARS ARE MADE</h3>
                         <p class="pride-production__text-descr">
@@ -598,6 +601,7 @@
     <script type="text/javascript" src="js/testimonials-card.js"></script>
     <script type="text/javascript" src="js/contacts.js"></script>
     <script src="https://kit.fontawesome.com/1ed1f677df.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/video-control.js"></script>
     <script type="text/javascript" src="js/founders-list.js"></script>
     <script type="text/javascript" src="js/top-btn.js"></script>
 </body>

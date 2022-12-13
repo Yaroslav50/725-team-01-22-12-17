@@ -29,12 +29,9 @@
                 <h2 class="founders-brothers__name title-text">${founder.title}</h2>
                 <p class="founders-brothers__descr">${founder.description}</p>
                 <div class="founders-brothers__soc">
-                    <a class="btnsoc fa-brands fa-square-facebook" href="https://www.facebook.com/"  title="Facebook">
-                    </a>
-                    <a class="btnsoc fa-brands fa-instagram" href="https://www.instagram.com/"  title="Instagram">
-                    </a>
-                    <a class="btnsoc fa-brands fa-youtube" href="https://www.youtube.com/"  title="Youtube">
-                    </a>
+                    <a class="btnsoc fa-brands fa-square-facebook" href="https://www.facebook.com/"  title="Facebook"></a>
+                    <a class="btnsoc fa-brands fa-instagram" href="https://www.instagram.com/"  title="Instagram"></a>
+                    <a class="btnsoc fa-brands fa-youtube" href="https://www.youtube.com/"  title="Youtube"></a>
                 </div>
             </div>
             `;
