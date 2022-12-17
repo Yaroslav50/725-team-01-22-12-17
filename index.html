@@ -1,609 +1,886 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cigar company</title>
     <link rel="shortcut icon" href="img/cigar-icon.png" type="image/x-icon" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css" />
 
     <!-- Блок HISTORY - Білусяк-->
     <!-- Блок CONTACTS+FAQ+FOOTER - Коляса-->
     <!-- Блок TESTIMONIALS - Евеліна-->
     <!-- Блок TITLE+ASSETS+BRANDS+GALLERY - Ярослав -->
     <!-- Блок ABOUT HAVANA - Вікторія-->
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header" class="header">
-        <nav class="header__nav">
-            <div class="header__logo-container">
-                <a href="/"><img class="header__logo" src="img/havana-logo.png" alt="Havana Logo"></a>
-            </div>
-            <div class="hamburger-menu">
-                <input id="menu__toggle" type="checkbox" />
-                <label class="menu__btn" for="menu__toggle">
-                    <span></span>
-                </label>
-                <ul class="menu__box">
-                    <li><a class="menu__item" href="#">ABOUT US</a></li>
-                    <li><a class="menu__item" href="#">SERVICES</a></li>
-                    <li><a class="menu__item" href="#our-brands">OUR BRANDS</a></li>
-                    <li><a class="menu__item" href="#">TESTIMONIALS</a></li>
-                    <li><a class="menu__item" href="#">CONTACT US</a></li>
-                    <li>
-                        <button id="menu__request-button" type="button" name="request-a-quote">
-                            REQUEST A QUOTE
-                        </button>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="header__menu-wide">
-                <a class="header__menu-wide-item" href="#">About Us</a>
-                <a class="header__menu-wide-item" href="#">Services</a>
-                <a class="header__menu-wide-item" href="#our-brands">Our Brands</a>
-                <a class="header__menu-wide-item" href="#">Testimonials</a>
-                <a class="header__menu-wide-item" href="#">Contact Us</a>
-                <a class="header__menu-wide-item" id="header__menu-wide-item-button" href="#">Request a quote</a>
-            </div>
-
-        </nav>
-        <div class="header__banner">
-            <h1>Cigars</h1>
-            <img id="header__img" src="img/header-cigar.png" alt="Cigar" />
-            <div class="header__buttons">
-                <a href="#" class="header__btn-about button">About us</a>
-                <a href="#" class="header__btn-contacts button">Contact us</a>
-            </div>
+      <nav class="header__nav">
+        <div class="header__logo-container">
+          <a href="/"
+            ><img
+              class="header__logo"
+              src="img/havana-logo.png"
+              alt="Havana Logo"
+          /></a>
         </div>
-        <div class="header__warning">
-            <p>To use this website you must be aged 18 or over.</p>
+
+        
+
+        <div class="navigation-burger"><span></span></div>
+      </div>
+      <div class="navigation-wrapper">
+          <div class="navigation-pages">
+              <a href="#" class="navigation__link">ABOUT US</a>
+              <a href="#" class="navigation__link">SERVICES</a>
+              <a href="#" class="navigation__link">OUR BRANDS</a>
+              <a href="#" class="navigation__link">TESTIMONIALS</a>
+              <a href="#" class="navigation__link">CONTACT US</a>
+              <a href="#" class="navigation__link">REQUEST A QUOTE</a>
+          </div>
+      </div>
+
+
+
+        <!-- <div class="hamburger-menu">
+          <input id="menu__toggle" type="checkbox" />
+          <label class="menu__btn" for="menu__toggle">
+            <span></span>
+          </label>
+          <div class="menu__box navigation-wrapper">
+            
+              <a class="menu__item navigation__link" href="#">ABOUT US</a>
+            
+              <a class="menu__item navigation__link" href="#">SERVICES</a>
+            
+              <a class="menu__item navigation__link" href="#our-brands"
+                >OUR BRANDS</a
+              >
+            
+              <a class="menu__item navigation__link" href="#">TESTIMONIALS</a>
+            
+              <a class="menu__item navigation__link" href="#">CONTACT US</a>
+            
+              <button
+                id="menu__request-button"
+                type="button"
+                name="request-a-quote"
+              >
+                REQUEST A QUOTE
+              </button>
+            
+          </div>
+        </div> -->
+
+        <!-- <div class="header__menu-wide">
+          <a class="header__menu-wide-item" href="#">About Us</a>
+          <a class="header__menu-wide-item" href="#">Services</a>
+          <a class="header__menu-wide-item" href="#our-brands">Our Brands</a>
+          <a class="header__menu-wide-item" href="#">Testimonials</a>
+          <a class="header__menu-wide-item" href="#">Contact Us</a>
+          <a
+            class="header__menu-wide-item"
+            id="header__menu-wide-item-button"
+            href="#"
+            >Request a quote</a
+          >
+        </div> -->
+      </nav>
+      <div class="header__banner">
+        <h1>Cigars</h1>
+        <img id="header__img" src="img/header-cigar.png" alt="Cigar" />
+        <div class="header__buttons">
+          <a href="#" class="header__btn-about button">About us</a>
+          <a href="#" class="header__btn-contacts button">Contact us</a>
         </div>
+      </div>
+      <div class="header__warning">
+        <p>To use this website you must be aged 18 or over.</p>
+      </div>
     </header>
 
     <main>
-        <!--Block About Havana-->
-        <section id="about-havana" class="about__havana">
-            <h2 class="title_about_havana">ABOUT HAVANA</h2>
-            <div class="greenery picture">
-                <img class="greenery_picture" src="img/greenery.png" alt="Greenery">
-                <img class="line__after__title" src="img/line_first.png" alt="First line">
-            </div>
-            <p class="about-us__main">Havana Company is one of the major sellers of tobacco products throughout the USA.
-            </p>
-            <p class="about-us__text">With several tobacco factories and rich history, for 50 years we have been
-                manufacturing and supplying the best cigars and premium tobacco to America. We sell our cigars to the US
-                shops of any size and to individuals through the chain of Havana Tobacco stores.</p>
-
-            <div class="about havana contact us">
-                <input class="contact_us_button" type="submit" value="CONTACT US">
-                <input class="learn_more_button" type="submit" value="LEARN MORE">
-            </div>
-
-        </section>
-        <section class="partners">
-            <h2 class="title_partners">PARTNERS</h2>
-
-            <div class="our partners">
-                <img width="32" class="line__after__partners" src="img/line_second.png" alt="Second line">
-            </div>
-            <p class="text_about_partners">The excellence of our premium tobacco has been evaluated by our partners:</p>
-            <div class="list of partners">
-                <img width="200" class="admired companies" src="img/most_admired_companies.png" alt="Fortune world's">
-                <img width="200" class="cigar media" src="img/cigar_media_association.png" alt="Media association">
-                <img width="200" class="tobacconist" src="img/tabacconist.png" alt="Tobacconist">
-                <img width="200" class="british tobacco" src="img/british_american_tobacco.png"
-                    alt="British American Tobacco">
-            </div>
-        </section>
-
-        <!-- Assets Ярослав -->
-
-        <section class="assets">
-            <div class="assets__add-bg">
-                <div class="assets__inn-cont">
-                    <div class="assets__inn-cont-card">
-                        <span class="assets__inn-cont-card-int">15</span>
-                        <span class="assets__inn-cont-card-txt">Sorts of high-quality tobacco cultivated and dried at
-                            our own factories.</span>
-                    </div>
-                    <div class="assets__inn-cont-card">
-                        <span class="assets__inn-cont-card-int">150</span>
-                        <span class="assets__inn-cont-card-txt">Acres of plantations in Cuba, as well as 5 tobacco
-                            processing factories.</span>
-                    </div>
-                    <div class="assets__inn-cont-card">
-                        <span class="assets__inn-cont-card-int">80</span>
-                        <span class="assets__inn-cont-card-txt">Havana official stores in the USA, and 1500+ resellers
-                            all over the world.</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--Block History-->
-        <section class="history">
-            <div class="container__history">
-                <div class="history__header">
-                    <h2 class="history__name">HISTORY</h2>
-                    <img class="history__line" src="img/history_block_line.png" alt="Line">
-                    <p class="history__title">For over 50 years, we have been engaged in tobacco growing and the
-                        production of
-                        cigars and other tobacco products.
-                    </p>
-                </div>
-                <div class="history__container-info">
-                    <div class="history__founders">
-                        <div class="history__container-img">
-                            <img src="img/history_block_three_men.jpg" alt="Three founders">
-                        </div>
-                        <p class="history__date">SEPT 19, 1970</p>
-                        <p class="history__descr">Foundation of our first tobacco factory in Havana by
-                            three
-                            brothers: James, John and Hugh Bomstrom.
-                        </p>
-                    </div>
-                    <div class="history__rising">
-                        <div class="history__container-img">
-                            <img src="img/history_block_woman.jpg" alt="Woman with cigar">
-                        </div>
-                        <p class="history__date">JUN 2, 1990
-                        </p>
-                        <p class="history__descr">Rise to the market leader in the USA, the opening of the
-                            first official store and 3 more factories.
-                        </p>
-                    </div>
-                    <div class="history__contracts">
-                        <div class="history__container-img">
-                            <img src="img/history_block_plants.jpg" alt="Plantation of plants">
-                        </div>
-                        <p class="history__date">NOV 17, 2000
-                        </p>
-                        <p class="history__descr">Signing a contract with Trader Joe's. Since then, we've
-                            become a regular supplier to all its stores.
-                        </p>
-                    </div>
-                    <div class="history__new-brands">
-                        <div class="history__container-img">
-                            <img src="img/history_block_cigars.png" alt="Cigars">
-                        </div>
-                        <p class="history__date">MAY 5, 2015
-                        </p>
-                        <p class="history__descr">Establishment of the fifth tobacco factory in Cuba.
-                            Market
-                            launch of 3 new cigar brands.
-                        </p>
-                    </div>
-                </div>
-                <div class="history__btn">
-                    <a href="#" class="history__button">MORE ABOUT US</a>
-                 <button onclick="topFunction()" id="top-btn__function" title="Go to top">Top</button>
-                </div>
-            </div>
-        </section>
-        <!-- Block Cooperation with us  Євген -->  
-        <section class="cooperation">
-            <div class="cooperation_all">
-                <header class="cooperation_title_content">
-                    <div class="cooperation_discription">
-                        <h2 class="cooperation_title">COOPERATION WITH US</h2>
-                        <img class="cooperation_title_line" 
-                            src="img/picture_under_cooperation.png" 
-                            alt="line">
-                        <p class="cooperation_title_text">If you are looking for a reliable supplier of cigars and other
-                            tobacco products, we will be happy to cooperate.</p>
-                    </div>
-                </header> 
-                <div class="cooperation_content">
-                    <div class="coopertion_content_control">
-                        <div class="cooperation_experience cooperation-content-component">
-                            <img class="cooperation_img_experience " 
-                                src="img/cigar_experience.png" 
-                                alt="cigar">
-                            <h3 class="cooperation_title-discr">EXPERIENCE</h3>
-                            <p class="cooperation_content_discription">We have been cultivating and selling tobacco and cigars for
-                                50 years.
-                            </p>
-                        </div>
-                        <div class="cooperation_content_broad_variety cooperation-content-component">
-                            <img class="cooperation_img_broad_variety"  
-                                src="img/lighter_img.jpg" 
-                                alt="lighter">
-                            <h3 class="cooperation_title-discr ">BROAD VARIETY</h3>
-                            <p class="cooperation_content_discription ">Our products are more than 15 varieties of tobacco and dozens
-                                of different cigars.</p>
-                        </div>
-                        <div class="cooperation_content_skilled_staff cooperation-content-component">
-                            <img class="cooperation_img_skilled_staff" 
-                                src="img/skilled_staff_man.png" 
-                                alt="staff">
-                            <h3 class="cooperation_title-discr">SKILLED STAFF</h3>
-                            <p class="cooperation_content_discription">Our employees will offer you the most profitable model of
-                                cooperation and help you boost sales.</p>
-                        </div>
-                    </div>
-                    <div class="cooperation_nav_button">
-                        <a class="cooperation_button_learn" href="#">LEARN MORE</a>
-                        <a class="cooperation_button_contact" href="#contacts">CONTACT US</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Block Contact us now -->
-        <section class="contact_us">
-            <div id="contact_us_bg">
-                <div class="contact_us_all">
-                    <div class="contact_us_head">
-                        <h2 class="contact_us_title">CONTACT US NOW</h2>
-                        <img class="contact_us_title_line" src="img/line_under_contact_us.png" alt="line">
-                        <p class="contact_us_content_title">Leave your phone number and our manager will contact you to
-                            discuss
-                            the terms of cooperation.</p>
-                    </div> 
-                    <form class="contact_us_input">
-                        <input class="contact_us_phone_num" type="tel" placeholder="Phone number" name="phone"  >
-                            <button class="contact_us_button" id="contact_us_btn" type="submit">REQUEST A QUOTE</button>
-                    </form>
-                </div> 
-            </div>
-        </section>
-
-        <!-- PRICING -->
-        <section class="pricing">
-            <div class="pricing-bg">
-                <h2 class="pricing-header__h2">PRICING</h2>
-                <img class="pricing-header-img" src="img/testimonial-arrow.png" alt="arrow">
-                <p class="pricing-header__text">In our assortment, there are dozens of different cigars. To learn more
-                    about prices, contact our manager.</p>
-                <div class="pricing-cards"></div>
-            </div>
-        </section>
-        <!-- Anastasiia Savanzha -->
-
-        <section class="pride">
-            <div class="limits">
-                <div class="pride-grade">
-                    <h2 class="pride-grade__title title-text">50 YEARS OF QUALITY</h2>
-                    <img class="pride-grade__line" src="img/line.png" alt="line">
-                    <p class="pride-grade__descr">
-                        We are proud of our traditions and the high quality of tobacco in every cigar you buy under the
-                        Havana brand.
-                    </p>
-                </div>
-                <div class="pride-production">
-                    <div class="video">
-                        <button class="pride-production__video-control"></button>
-                        <video id="video" class="pride-production__video" width="435" height="300" controls cursor="pointer">
-                            <source src="video/habano-story.mp4" type="video/mp4" />
-                        </video>
-                    </div>                    
-                    <div class="pride-production__text">
-                        <h3 class="pride-production__text-title title-text">HOW THE CIGARS ARE MADE</h3>
-                        <p class="pride-production__text-descr">
-                            In this video, we talked about how cigars are created, from choosing the best seeds to
-                            packing
-                            cigars in our branded boxes.
-                            If you have always been interested in what exactly you smoke, watch this video and learn
-                            about the
-                            high quality of our products.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="founders">
-            <div class="limits">
-                <div class="founders-history">
-                    <h2 class="founders-history__title title-text">OUR FOUNDERS</h2>
-                    <img class="founders-history__line" src="img/line.png" alt="line">
-                    <p class="founders-history__descr">
-                        50 years ago, three brothers bought land in Cuba and organized the first tobacco plantation and
-                        the
-                        first Havana factory.
-                    </p>
-                </div>
-                <div class="founders-brothers">
-                </div>
-            </div>
-        </section>
-
-
-        <!-- TESTIMONIALS -->
-
-        <div id="testimonials" class="testimonials">
-            <div class="testimonials__header">
-                <h2 class="testimonials__header-h2">TESTIMONIALS</h2>
-                <img class="testimonials__header-img" src="img/testimonial-arrow.png" alt="Arrow">
-                <p class="testimonials__header-text">Some feedback on Havana cigars from our partners.</p>
-            </div>
-            <div class="testimonials__cards">
-                <div class="swiper">
-                    <div class="testimonials__cards-wrapper"></div>
-                    <div class="testimonials__cards-prev-btn"></div>
-                    <div class="testimonials__cards-next-btn"></div>
-                </div>
-            </div>
+      <!--Block About Havana-->
+      <section id="about-havana" class="about__havana">
+        <h2 class="title_about_havana">ABOUT HAVANA</h2>
+        <div class="greenery picture">
+          <img class="greenery_picture" src="img/greenery.png" alt="Greenery" />
+          <img
+            class="line__after__title"
+            src="img/line_first.png"
+            alt="First line"
+          />
         </div>
+        <p class="about-us__main">
+          Havana Company is one of the major sellers of tobacco products
+          throughout the USA.
+        </p>
+        <p class="about-us__text">
+          With several tobacco factories and rich history, for 50 years we have
+          been manufacturing and supplying the best cigars and premium tobacco
+          to America. We sell our cigars to the US shops of any size and to
+          individuals through the chain of Havana Tobacco stores.
+        </p>
 
-        <!-- OUR BRANDS BLOCK -->
-        <section class="our-brands" id="our-brands">
-            <div id="our-brands__bg">
-                <div class="our-brands__container">
-                    <div class="our-brands__header">
-                        <h2 class="our-brands__header-title">OUR BRANDS</h2>
-                        <div class="our-brands__header-match-container">
-                            <img class="our-brands__header-match" src="img/brands_match.png" width="300"
-                                alt="Burning match">
-                        </div>
-                        <p class="our-brands__header_slogan">
-                            We sell tobacco products under several subsidiary brands. Look for
-                            these brands in stores in your city.
-                        </p>
-                    </div>
+        <div class="about havana contact us">
+          <input class="contact_us_button" type="submit" value="CONTACT US" />
+          <input class="learn_more_button" type="submit" value="LEARN MORE" />
+        </div>
+      </section>
+      <section class="partners">
+        <h2 class="title_partners">PARTNERS</h2>
 
-                    <div class="our-brands__list">
-                        <div class="our-brands__list-bg">
-                            <div class="our-brands__list-card">
-                                <div class="our-brands__list-img-container">
-                                    <img class="our-brands__list-img" src="img/brands_fine_cigar_logo.png"
-                                        alt="Fine cigar logo">
-                                </div>
-                                <h3 class="our-brands__list-name">FINE CIGAR</h3>
-                                <p class="our-brands__list-text">
-                                    Imported from Cuba, these machine-made cigars use select
-                                    natural leaf wrappers and aged filler tobaccos to emphasize
-                                    their nice flavor and aroma. Produced since 2000, this brand
-                                    included in the Havana family has a huge following among
-                                    American smokers.
-                                </p>
-                            </div>
-                        </div>
+        <div class="our partners">
+          <img
+            width="32"
+            class="line__after__partners"
+            src="img/line_second.png"
+            alt="Second line"
+          />
+        </div>
+        <p class="text_about_partners">
+          The excellence of our premium tobacco has been evaluated by our
+          partners:
+        </p>
+        <div class="list of partners">
+          <img
+            width="200"
+            class="admired companies"
+            src="img/most_admired_companies.png"
+            alt="Fortune world's"
+          />
+          <img
+            width="200"
+            class="cigar media"
+            src="img/cigar_media_association.png"
+            alt="Media association"
+          />
+          <img
+            width="200"
+            class="tobacconist"
+            src="img/tabacconist.png"
+            alt="Tobacconist"
+          />
+          <img
+            width="200"
+            class="british tobacco"
+            src="img/british_american_tobacco.png"
+            alt="British American Tobacco"
+          />
+        </div>
+      </section>
 
-                        <div class="our-brands__list-bg">
-                            <div class="our-brands__list-card">
-                                <div class="our-brands__list-img-container" id="our-brands__list-img-container-cw">
-                                    <img class="our-brands__list-img" src="img/brands_cigar_world_logo.png"
-                                        alt="Cigar world logo">
-                                </div>
-                                <h3 class="our-brands__list-name">CIGAR WORLD</h3>
-                                <p class="our-brands__list-text">
-                                    Handmade in Cuba, the Cigar World cigars display the finest
-                                    aged binder and filler tobaccos surrounded by natural wrapper
-                                    for great flavor with that special Havana touch. The rich
-                                    tobacco sweetness is accentuated with hearty notes of dark
-                                    roast coffee.
-                                </p>
-                            </div>
-                        </div>
+      <!-- Assets Ярослав -->
 
-                        <div class="our-brands__list-bg">
-                            <div class="our-brands__list-card">
-                                <div class="our-brands__list-img-container" id="our-brands__list-img-container-cb">
-                                    <img class="our-brands__list-img" src="img/brands_cigar_bar_logo.png"
-                                        alt="Cigar bar logo">
-                                </div>
-                                <h3 class="our-brands__list-name">CIGAR BAR</h3>
-                                <p class="our-brands__list-text">
-                                    Cigar Bar cigarillos are hand-rolled in Cuba with natural leaf
-                                    wrappers. Choose the Aroma version dipped in cognac, the Sweet
-                                    Filtered cognac-dipped or the strong Rum version. Allow
-                                    yourself an evening with good tobacco.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      <section class="assets">
+        <div class="assets__add-bg">
+          <div class="assets__inn-cont">
+            <div class="assets__inn-cont-card">
+              <span class="assets__inn-cont-card-int">15</span>
+              <span class="assets__inn-cont-card-txt"
+                >Sorts of high-quality tobacco cultivated and dried at our own
+                factories.</span
+              >
             </div>
-        </section>
-
-        <!-- OUR GALLERY BLOCK -->
-        <section class="our-gallery">
-            <div class="our-gallery__bg">
-                <div class="our-gallery__header">
-                    <h2 class="our-gallery__header-title">OUR GALLERY</h2>
-                    <div class="our-gallery__header-match-container">
-                        <img class="our-gallery__header-match" src="img/brands_match.png" alt="Burning match">
-                    </div>
-                    <p class="our-gallery__header_slogan">
-                        From the first seed planted to packed cigars on the shelves of our
-                        stores, we guarantee you the high quality of Havana tobacco
-                        products.
-                    </p>
-                </div>
-
-                <div class="our-gallery__slider">
-                    <div class="our-gallery__images">
-                        <div class="our-gallery__images-container">
-                            <img class="our-gallery__images-unit" src="img/gal_green_leaf.jpg"
-                                alt="Tobacco green leaf and a mans hand">
-                        </div>
-                        <div class="our-gallery__images-container">
-                            <img class="our-gallery__images-unit" src="img/gal_cigars_in_box.png"
-                                alt="A few cigars in a wooden box">
-                        </div>
-                        <div class="our-gallery__images-container">
-                            <img class="our-gallery__images-unit" src="img/gal_man_start_smoking.jpg"
-                                alt="A man burns up his cigar">
-                        </div>
-                        <div class="our-gallery__images-container">
-                            <img class="our-gallery__images-unit" src="img/gal_cigar_on_table.jpg"
-                                alt="Cigar on the table">
-                        </div>
-                        <div class="our-gallery__images-container">
-                            <img class="our-gallery__images-unit" src="img/gal_man_in_hat_smoking_cigar.jpg"
-                                alt="Man in hat smoking cigar">
-                        </div>
-                    </div>
-
-                    <div class="our-gallery__slider-prev-button"></div>
-                    <div class="our-gallery__slider-next-button"></div>
-                </div>
+            <div class="assets__inn-cont-card">
+              <span class="assets__inn-cont-card-int">150</span>
+              <span class="assets__inn-cont-card-txt"
+                >Acres of plantations in Cuba, as well as 5 tobacco processing
+                factories.</span
+              >
             </div>
-        </section>
+            <div class="assets__inn-cont-card">
+              <span class="assets__inn-cont-card-int">80</span>
+              <span class="assets__inn-cont-card-txt"
+                >Havana official stores in the USA, and 1500+ resellers all over
+                the world.</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
 
-        <!-- FAQ BLOCK Erast Koliasa-->
-        <section class="faq">
-            <div class="faq__header">
-                <h2 class="faq__title">FAQ</h2>
-                <div class="faq__img-container">
-                    <img class="faq__line" src="img/faq_block_line.png" alt="line">
-                </div>
-                <p class="faq__title-text">
-                    If you have any questions, contact us directly or browse through this section.
+      <!--Block History-->
+      <section class="history">
+        <div class="container__history">
+          <div class="history__header">
+            <h2 class="history__name">HISTORY</h2>
+            <img
+              class="history__line"
+              src="img/history_block_line.png"
+              alt="Line"
+            />
+            <p class="history__title">
+              For over 50 years, we have been engaged in tobacco growing and the
+              production of cigars and other tobacco products.
+            </p>
+          </div>
+          <div class="history__container-info">
+            <div class="history__founders">
+              <div class="history__container-img">
+                <img
+                  src="img/history_block_three_men.jpg"
+                  alt="Three founders"
+                />
+              </div>
+              <p class="history__date">SEPT 19, 1970</p>
+              <p class="history__descr">
+                Foundation of our first tobacco factory in Havana by three
+                brothers: James, John and Hugh Bomstrom.
+              </p>
+            </div>
+            <div class="history__rising">
+              <div class="history__container-img">
+                <img src="img/history_block_woman.jpg" alt="Woman with cigar" />
+              </div>
+              <p class="history__date">JUN 2, 1990</p>
+              <p class="history__descr">
+                Rise to the market leader in the USA, the opening of the first
+                official store and 3 more factories.
+              </p>
+            </div>
+            <div class="history__contracts">
+              <div class="history__container-img">
+                <img
+                  src="img/history_block_plants.jpg"
+                  alt="Plantation of plants"
+                />
+              </div>
+              <p class="history__date">NOV 17, 2000</p>
+              <p class="history__descr">
+                Signing a contract with Trader Joe's. Since then, we've become a
+                regular supplier to all its stores.
+              </p>
+            </div>
+            <div class="history__new-brands">
+              <div class="history__container-img">
+                <img src="img/history_block_cigars.png" alt="Cigars" />
+              </div>
+              <p class="history__date">MAY 5, 2015</p>
+              <p class="history__descr">
+                Establishment of the fifth tobacco factory in Cuba. Market
+                launch of 3 new cigar brands.
+              </p>
+            </div>
+          </div>
+          <div class="history__btn">
+            <a href="#" class="history__button">MORE ABOUT US</a>
+            <button
+              onclick="topFunction()"
+              id="top-btn__function"
+              title="Go to top"
+            >
+              Top
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Block Cooperation with us  Євген -->
+      <section class="cooperation">
+        <div class="cooperation_all">
+          <header class="cooperation_title_content">
+            <div class="cooperation_discription">
+              <h2 class="cooperation_title">COOPERATION WITH US</h2>
+              <img
+                class="cooperation_title_line"
+                src="img/picture_under_cooperation.png"
+                alt="line"
+              />
+              <p class="cooperation_title_text">
+                If you are looking for a reliable supplier of cigars and other
+                tobacco products, we will be happy to cooperate.
+              </p>
+            </div>
+          </header>
+          <div class="cooperation_content">
+            <div class="coopertion_content_control">
+              <div class="cooperation_experience cooperation-content-component">
+                <img
+                  class="cooperation_img_experience"
+                  src="img/cigar_experience.png"
+                  alt="cigar"
+                />
+                <h3 class="cooperation_title-discr">EXPERIENCE</h3>
+                <p class="cooperation_content_discription">
+                  We have been cultivating and selling tobacco and cigars for 50
+                  years.
                 </p>
-            </div>
-            <div class="accordion" id="faq-accordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header " id="headingOne">
-                        <button class="accordion-button accordion__icon--plus_1m-" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
-                            aria-controls="collapseOne">
-                            HOW CAN WE COLLABORATE?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            We offer high-quality tobacco products supply throughout America, as well as
-                            consulting services.
-                            We're open for collaboration with businesses of any scale. Contact us to find out more!
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            HOW TO CHOOSE A CIGAR?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Wider cigars are generally a mellower smoke. A narrow cigar has a slightly
-                            higher burn temperature and its flavor is dominated by the wrapper, which results in a
-                            stronger-tasting smoke. The length of a cigar also affects your experience.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            WHERE CAN I FIND YOUR STORES?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            We have 80 official stores in the USA, in all major cities. We also sell our
-                            cigars through a network of partners and retail chains. If you did not find Havana products
-                            in
-                            your city, contact us!
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            WHAT'S SO SPECIAL ABOUT CUBAN CIGARS?
-                        </button>
-                    </h2>
-                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                        data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Tobacco has been grown in Cuba for hundreds of years, and manufacturers have
-                            been making cigars in this country since the time of Phillip II of Spain. In Cuba, there is
-                            the
-                            perfect combination of climate, tobacco leaf quality and the availability of modern
-                            technologies.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- CONTACTS BLOCK -->
-        <section id="contacts" class="contacts">
-            <div class="contacts__info-container">
-                <h2 class="contacts__container-title">CONTACTS</h2>
-                <div class="contacts__img-container">
-                    <img class="contacts__line" src="img/contacts_block_line.png" width="300" alt="line">
-                </div>
-                <p class="contacts__large-text">Contact us to talk about the cooperation options or discuss any question
-                    you may
-                    have.
+              </div>
+              <div
+                class="cooperation_content_broad_variety cooperation-content-component"
+              >
+                <img
+                  class="cooperation_img_broad_variety"
+                  src="img/lighter_img.jpg"
+                  alt="lighter"
+                />
+                <h3 class="cooperation_title-discr">BROAD VARIETY</h3>
+                <p class="cooperation_content_discription">
+                  Our products are more than 15 varieties of tobacco and dozens
+                  of different cigars.
                 </p>
-                <div class="contacts__information">
-                    <h3 class="information__title">Address</h3>
-                    <p class="information-contacts">401 76th St, Brooklyn, <br> NY 11209, USA</p>
-                </div>
-                <div class="contacts__information">
-                    <h3 class="information__title">Contacts</h3>
-                    <p class="information-contacts">+1 (234) 567 89 00 <br> havana@email.com</p>
-                </div>
-                <div class="contacts__map">
-                    <iframe class="map"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1513.9895654060995!2d-74.0257022519726!3d40.63034220299651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c245599d1a81db%3A0xed3725a727da5c83!2zNDAxIDc2dGggU3QsIEJyb29rbHluLCBOWSAxMTIwOSwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1667744083196!5m2!1sru!2sua"
-                        width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
-                </div>
+              </div>
+              <div
+                class="cooperation_content_skilled_staff cooperation-content-component"
+              >
+                <img
+                  class="cooperation_img_skilled_staff"
+                  src="img/skilled_staff_man.png"
+                  alt="staff"
+                />
+                <h3 class="cooperation_title-discr">SKILLED STAFF</h3>
+                <p class="cooperation_content_discription">
+                  Our employees will offer you the most profitable model of
+                  cooperation and help you boost sales.
+                </p>
+              </div>
             </div>
-            <div class="contacts__form-container">
-                <form class="contacts__form" action="#" method="post">
-                    <input class="contacts__input contacts__user-name" type="text" placeholder="Enter your full name*" name="user-name">
-                    <input class="contacts__input contacts__phone-number" type="tel" placeholder="Enter your phone number*" name="user-phone">
-                    <input class="contacts__input contacts__email" type="email" placeholder="Enter your email*" name="user-email">
-                    <textarea name="message" class="contacts__input contacts__input-message contacts__message"
-                        placeholder="Type your message"></textarea>
-                    <button class="contacts__input-btn" type="submit">REQUEST A QUOTE</button>
-                </form>
+            <div class="cooperation_nav_button">
+              <a class="cooperation_button_learn" href="#">LEARN MORE</a>
+              <a class="cooperation_button_contact" href="#contacts"
+                >CONTACT US</a
+              >
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
+      <!-- Block Contact us now -->
+      <section class="contact_us">
+        <div id="contact_us_bg">
+          <div class="contact_us_all">
+            <div class="contact_us_head">
+              <h2 class="contact_us_title">CONTACT US NOW</h2>
+              <img
+                class="contact_us_title_line"
+                src="img/line_under_contact_us.png"
+                alt="line"
+              />
+              <p class="contact_us_content_title">
+                Leave your phone number and our manager will contact you to
+                discuss the terms of cooperation.
+              </p>
+            </div>
+            <form class="contact_us_input">
+              <input
+                class="contact_us_phone_num"
+                type="tel"
+                placeholder="Phone number"
+                name="phone"
+              />
+              <button
+                class="contact_us_button"
+                id="contact_us_btn"
+                type="submit"
+              >
+                REQUEST A QUOTE
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRICING -->
+      <section class="pricing">
+        <div class="pricing-bg">
+          <h2 class="pricing-header__h2">PRICING</h2>
+          <img
+            class="pricing-header-img"
+            src="img/testimonial-arrow.png"
+            alt="arrow"
+          />
+          <p class="pricing-header__text">
+            In our assortment, there are dozens of different cigars. To learn
+            more about prices, contact our manager.
+          </p>
+          <div class="pricing-cards"></div>
+        </div>
+      </section>
+      <!-- Anastasiia Savanzha -->
+
+      <section class="pride">
+        <div class="limits">
+          <div class="pride-grade">
+            <h2 class="pride-grade__title title-text">50 YEARS OF QUALITY</h2>
+            <img class="pride-grade__line" src="img/line.png" alt="line" />
+            <p class="pride-grade__descr">
+              We are proud of our traditions and the high quality of tobacco in
+              every cigar you buy under the Havana brand.
+            </p>
+          </div>
+          <div class="pride-production">
+            <div class="video">
+              <button class="pride-production__video-control"></button>
+              <video
+                id="video"
+                class="pride-production__video"
+                width="435"
+                height="300"
+                controls
+                cursor="pointer"
+              >
+                <source src="video/habano-story.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="pride-production__text">
+              <h3 class="pride-production__text-title title-text">
+                HOW THE CIGARS ARE MADE
+              </h3>
+              <p class="pride-production__text-descr">
+                In this video, we talked about how cigars are created, from
+                choosing the best seeds to packing cigars in our branded boxes.
+                If you have always been interested in what exactly you smoke,
+                watch this video and learn about the high quality of our
+                products.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="founders">
+        <div class="limits">
+          <div class="founders-history">
+            <h2 class="founders-history__title title-text">OUR FOUNDERS</h2>
+            <img class="founders-history__line" src="img/line.png" alt="line" />
+            <p class="founders-history__descr">
+              50 years ago, three brothers bought land in Cuba and organized the
+              first tobacco plantation and the first Havana factory.
+            </p>
+          </div>
+          <div class="founders-brothers"></div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+
+      <div id="testimonials" class="testimonials">
+        <div class="testimonials__header">
+          <h2 class="testimonials__header-h2">TESTIMONIALS</h2>
+          <img
+            class="testimonials__header-img"
+            src="img/testimonial-arrow.png"
+            alt="Arrow"
+          />
+          <p class="testimonials__header-text">
+            Some feedback on Havana cigars from our partners.
+          </p>
+        </div>
+        <div class="testimonials__cards">
+          <div class="swiper">
+            <div class="testimonials__cards-wrapper"></div>
+            <div class="testimonials__cards-prev-btn"></div>
+            <div class="testimonials__cards-next-btn"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- OUR BRANDS BLOCK -->
+      <section class="our-brands" id="our-brands">
+        <div id="our-brands__bg">
+          <div class="our-brands__container">
+            <div class="our-brands__header">
+              <h2 class="our-brands__header-title">OUR BRANDS</h2>
+              <div class="our-brands__header-match-container">
+                <img
+                  class="our-brands__header-match"
+                  src="img/brands_match.png"
+                  width="300"
+                  alt="Burning match"
+                />
+              </div>
+              <p class="our-brands__header_slogan">
+                We sell tobacco products under several subsidiary brands. Look
+                for these brands in stores in your city.
+              </p>
+            </div>
+
+            <div class="our-brands__list">
+              <div class="our-brands__list-bg">
+                <div class="our-brands__list-card">
+                  <div class="our-brands__list-img-container">
+                    <img
+                      class="our-brands__list-img"
+                      src="img/brands_fine_cigar_logo.png"
+                      alt="Fine cigar logo"
+                    />
+                  </div>
+                  <h3 class="our-brands__list-name">FINE CIGAR</h3>
+                  <p class="our-brands__list-text">
+                    Imported from Cuba, these machine-made cigars use select
+                    natural leaf wrappers and aged filler tobaccos to emphasize
+                    their nice flavor and aroma. Produced since 2000, this brand
+                    included in the Havana family has a huge following among
+                    American smokers.
+                  </p>
+                </div>
+              </div>
+
+              <div class="our-brands__list-bg">
+                <div class="our-brands__list-card">
+                  <div
+                    class="our-brands__list-img-container"
+                    id="our-brands__list-img-container-cw"
+                  >
+                    <img
+                      class="our-brands__list-img"
+                      src="img/brands_cigar_world_logo.png"
+                      alt="Cigar world logo"
+                    />
+                  </div>
+                  <h3 class="our-brands__list-name">CIGAR WORLD</h3>
+                  <p class="our-brands__list-text">
+                    Handmade in Cuba, the Cigar World cigars display the finest
+                    aged binder and filler tobaccos surrounded by natural
+                    wrapper for great flavor with that special Havana touch. The
+                    rich tobacco sweetness is accentuated with hearty notes of
+                    dark roast coffee.
+                  </p>
+                </div>
+              </div>
+
+              <div class="our-brands__list-bg">
+                <div class="our-brands__list-card">
+                  <div
+                    class="our-brands__list-img-container"
+                    id="our-brands__list-img-container-cb"
+                  >
+                    <img
+                      class="our-brands__list-img"
+                      src="img/brands_cigar_bar_logo.png"
+                      alt="Cigar bar logo"
+                    />
+                  </div>
+                  <h3 class="our-brands__list-name">CIGAR BAR</h3>
+                  <p class="our-brands__list-text">
+                    Cigar Bar cigarillos are hand-rolled in Cuba with natural
+                    leaf wrappers. Choose the Aroma version dipped in cognac,
+                    the Sweet Filtered cognac-dipped or the strong Rum version.
+                    Allow yourself an evening with good tobacco.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR GALLERY BLOCK -->
+      <section class="our-gallery">
+        <div class="our-gallery__bg">
+          <div class="our-gallery__header">
+            <h2 class="our-gallery__header-title">OUR GALLERY</h2>
+            <div class="our-gallery__header-match-container">
+              <img
+                class="our-gallery__header-match"
+                src="img/brands_match.png"
+                alt="Burning match"
+              />
+            </div>
+            <p class="our-gallery__header_slogan">
+              From the first seed planted to packed cigars on the shelves of our
+              stores, we guarantee you the high quality of Havana tobacco
+              products.
+            </p>
+          </div>
+
+          <div class="our-gallery__slider">
+            <div class="our-gallery__images">
+              <div class="our-gallery__images-container">
+                <img
+                  class="our-gallery__images-unit"
+                  src="img/gal_green_leaf.jpg"
+                  alt="Tobacco green leaf and a mans hand"
+                />
+              </div>
+              <div class="our-gallery__images-container">
+                <img
+                  class="our-gallery__images-unit"
+                  src="img/gal_cigars_in_box.png"
+                  alt="A few cigars in a wooden box"
+                />
+              </div>
+              <div class="our-gallery__images-container">
+                <img
+                  class="our-gallery__images-unit"
+                  src="img/gal_man_start_smoking.jpg"
+                  alt="A man burns up his cigar"
+                />
+              </div>
+              <div class="our-gallery__images-container">
+                <img
+                  class="our-gallery__images-unit"
+                  src="img/gal_cigar_on_table.jpg"
+                  alt="Cigar on the table"
+                />
+              </div>
+              <div class="our-gallery__images-container">
+                <img
+                  class="our-gallery__images-unit"
+                  src="img/gal_man_in_hat_smoking_cigar.jpg"
+                  alt="Man in hat smoking cigar"
+                />
+              </div>
+            </div>
+
+            <div class="our-gallery__slider-prev-button"></div>
+            <div class="our-gallery__slider-next-button"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ BLOCK Erast Koliasa-->
+      <section class="faq">
+        <div class="faq__header">
+          <h2 class="faq__title">FAQ</h2>
+          <div class="faq__img-container">
+            <img class="faq__line" src="img/faq_block_line.png" alt="line" />
+          </div>
+          <p class="faq__title-text">
+            If you have any questions, contact us directly or browse through
+            this section.
+          </p>
+        </div>
+        <div class="accordion" id="faq-accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button accordion__icon--plus_1m-"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                HOW CAN WE COLLABORATE?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                We offer high-quality tobacco products supply throughout
+                America, as well as consulting services. We're open for
+                collaboration with businesses of any scale. Contact us to find
+                out more!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                HOW TO CHOOSE A CIGAR?
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Wider cigars are generally a mellower smoke. A narrow cigar has
+                a slightly higher burn temperature and its flavor is dominated
+                by the wrapper, which results in a stronger-tasting smoke. The
+                length of a cigar also affects your experience.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                WHERE CAN I FIND YOUR STORES?
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                We have 80 official stores in the USA, in all major cities. We
+                also sell our cigars through a network of partners and retail
+                chains. If you did not find Havana products in your city,
+                contact us!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                WHAT'S SO SPECIAL ABOUT CUBAN CIGARS?
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                Tobacco has been grown in Cuba for hundreds of years, and
+                manufacturers have been making cigars in this country since the
+                time of Phillip II of Spain. In Cuba, there is the perfect
+                combination of climate, tobacco leaf quality and the
+                availability of modern technologies.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS BLOCK -->
+      <section id="contacts" class="contacts">
+        <div class="contacts__info-container">
+          <h2 class="contacts__container-title">CONTACTS</h2>
+          <div class="contacts__img-container">
+            <img
+              class="contacts__line"
+              src="img/contacts_block_line.png"
+              width="300"
+              alt="line"
+            />
+          </div>
+          <p class="contacts__large-text">
+            Contact us to talk about the cooperation options or discuss any
+            question you may have.
+          </p>
+          <div class="contacts__information">
+            <h3 class="information__title">Address</h3>
+            <p class="information-contacts">
+              401 76th St, Brooklyn, <br />
+              NY 11209, USA
+            </p>
+          </div>
+          <div class="contacts__information">
+            <h3 class="information__title">Contacts</h3>
+            <p class="information-contacts">
+              +1 (234) 567 89 00 <br />
+              havana@email.com
+            </p>
+          </div>
+          <div class="contacts__map">
+            <iframe
+              class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1513.9895654060995!2d-74.0257022519726!3d40.63034220299651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c245599d1a81db%3A0xed3725a727da5c83!2zNDAxIDc2dGggU3QsIEJyb29rbHluLCBOWSAxMTIwOSwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1667744083196!5m2!1sru!2sua"
+              width="300"
+              height="150"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+        <div class="contacts__form-container">
+          <form class="contacts__form" action="#" method="post">
+            <input
+              class="contacts__input contacts__user-name"
+              type="text"
+              placeholder="Enter your full name*"
+              name="user-name"
+            />
+            <input
+              class="contacts__input contacts__phone-number"
+              type="tel"
+              placeholder="Enter your phone number*"
+              name="user-phone"
+            />
+            <input
+              class="contacts__input contacts__email"
+              type="email"
+              placeholder="Enter your email*"
+              name="user-email"
+            />
+            <textarea
+              name="message"
+              class="contacts__input contacts__input-message contacts__message"
+              placeholder="Type your message"
+            ></textarea>
+            <button class="contacts__input-btn" type="submit">
+              REQUEST A QUOTE
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__header">
-            <div class="footer__container-logo">
-                <a href="#header"> <img class="footer__logo" src="img/footer-logo.png" alt="Havana logo"></a>
-            </div>
-            <div class="footer__menu">
-                <a class="footer__menu-item" href="#about-havana">ABOUT US</a>
-                <a class="footer__menu-item" href="#">SERVICES</a>
-                <a class="footer__menu-item" href="#our-brands">OUR BRANDS</a>
-                <a class="footer__menu-item" href="#testimonials">TESTIMONIALS</a>
-                <a class="footer__menu-item" href="#contacts">CONTACT US</a>
-            </div>
+      <div class="footer__header">
+        <div class="footer__container-logo">
+          <a href="#header">
+            <img
+              class="footer__logo"
+              src="img/footer-logo.png"
+              alt="Havana logo"
+          /></a>
         </div>
-        <div class="footer__footer">
-            <p class="footer__footer-text">© Created by</p>
-            <p class="footer__footer-text">All rights Reserved</p>
+        <div class="footer__menu">
+          <a class="footer__menu-item" href="#about-havana">ABOUT US</a>
+          <a class="footer__menu-item" href="#">SERVICES</a>
+          <a class="footer__menu-item" href="#our-brands">OUR BRANDS</a>
+          <a class="footer__menu-item" href="#testimonials">TESTIMONIALS</a>
+          <a class="footer__menu-item" href="#contacts">CONTACT US</a>
         </div>
-
+      </div>
+      <div class="footer__footer">
+        <p class="footer__footer-text">© Created by</p>
+        <p class="footer__footer-text">All rights Reserved</p>
+      </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/contact-us.js"></script>
     <script type="text/javascript" src="js/libs/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="js/pricing.js"></script>
     <script type="text/javascript" src="js/testimonials-card.js"></script>
     <script type="text/javascript" src="js/contacts.js"></script>
-    <script src="https://kit.fontawesome.com/1ed1f677df.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/1ed1f677df.js"
+      crossorigin="anonymous"
+    ></script>
     <script type="text/javascript" src="js/video-control.js"></script>
     <script type="text/javascript" src="js/founders-list.js"></script>
     <script type="text/javascript" src="js/top-btn.js"></script>
-</body>
-
+    <script type="text/javascript" src="js/burger-menu.js"></script>
+  </body>
 </html>
