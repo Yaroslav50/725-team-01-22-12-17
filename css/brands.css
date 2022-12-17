@@ -30,6 +30,7 @@
 }
 
 .our-brands__header-title {
+    font-family: 'BenchNine', sans-serif;
     color: var(--title-color);
     text-align: center;
     font-size: 34px;
@@ -80,6 +81,7 @@
 }
 
 .our-brands__list-name {
+    font-family: 'BenchNine', sans-serif;
     color: var(--title-color);
     margin-top: 50px;
     font-size: 22px;
